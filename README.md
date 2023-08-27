@@ -9,3 +9,6 @@ I wrote breakable ground code so a new element has been added to the traps secti
 
 Day3
 I wrote vanishing and regenerating trap code for my game today, I used the Toggle function.
+
+Day3
+I added enemy patrol code and new levels today.
