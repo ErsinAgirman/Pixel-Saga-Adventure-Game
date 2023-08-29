@@ -20,13 +20,11 @@ public class JumpPad : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounce, ForceMode2D.Impulse);
-            anim.SetBool("isJumping",true);
+
+            anim.SetTrigger("Jump");
         }
         
     }
 
-    private void OnCollisionExit2D(Collision2D other) 
-    {
-        anim.SetBool("isJumping",false);
-    }
+    
 }
