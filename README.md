@@ -13,5 +13,8 @@ I wrote vanishing and regenerating trap code for my game today, I used the Toggl
 Day3
 I added enemy patrol code and new levels today.
 
-Day 4
+Day4
 I added the Trampoline mechanism.
+
+Day5
+Bugs fixed and added new levels
