@@ -18,3 +18,6 @@ I added the Trampoline mechanism.
 
 Day5
 Bugs fixed and added new levels
+
+Day6
+I added counter mechanics and code for my last level (8)
