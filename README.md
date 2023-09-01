@@ -23,3 +23,6 @@ Day6
 I added counter mechanics and code for my last level (8)
 and some mechanical bugs fixed
 
+Day7 
+I added Pause Button and Movement Buttons for playing to the Android Devices. (Switch Project)
+
