@@ -25,4 +25,5 @@ and some mechanical bugs fixed
 
 Day7 
 I added Pause Button and Movement Buttons for playing to the Android Devices. (Switch Project)
+And I added FPS script to set fps 60hz.
 
