@@ -27,3 +27,12 @@ Day7
 I added Pause Button and Movement Buttons for playing to the Android Devices. (Switch Project)
 And I added FPS script to set fps 60hz.
 
+Day8
+Some Bugs fixed. 
+let me tell you some bugs i fixed ;
+
+Moving Platform Bug:
+We could stick to the moving platform, so I created a material called Friction Zero to prevent this from happening.
+"FrictionZero" it is a Material, there is two values, Friction and Bounciness, I set them both equal to zero.
+
+
