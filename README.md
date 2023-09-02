@@ -35,4 +35,7 @@ Moving Platform Bug:
 We could stick to the moving platform, so I created a material called Friction Zero to prevent this from happening.
 "FrictionZero" it is a Material, there is two values, Friction and Bounciness, I set them both equal to zero.
 
+Button Bugs fixed:
+Mechanical fluidity of the buttons is provided
+
 
