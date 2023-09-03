@@ -7,7 +7,7 @@ public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
     private bool levelCompleted = false;
-    private int myLevel= 0;
+    public static int myLevel= 0;
     internal static object finish;
 
     void Start()
@@ -15,6 +15,7 @@ public class Finish : MonoBehaviour
         finishSound = GetComponent<AudioSource>();
         myLevel = PlayerPrefs.GetInt("LevelKey",0);
         Debug.Log("seviye " + myLevel);
+        //PlayerPrefs.SetInt("LevelKey", 0);
     }
 
     public void LevelisCompleted()
