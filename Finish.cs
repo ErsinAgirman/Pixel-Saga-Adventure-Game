@@ -7,9 +7,21 @@ public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
     private bool levelCompleted = false;
+    private int myLevel= 0;
+    internal static object finish;
+
     void Start()
     {
         finishSound = GetComponent<AudioSource>();
+        myLevel = PlayerPrefs.GetInt("LevelKey",0);
+        Debug.Log("seviye " + myLevel);
+    }
+
+    public void LevelisCompleted()
+    {
+        myLevel++;
+        PlayerPrefs.SetInt("LevelKey",myLevel);
+        PlayerPrefs.Save();
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
@@ -19,6 +31,7 @@ public class Finish : MonoBehaviour
             finishSound.Play();
             levelCompleted = true;
             Invoke("CompleteLevel",2f);
+            LevelisCompleted();
          }
     }
 

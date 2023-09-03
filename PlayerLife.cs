@@ -21,9 +21,13 @@ public class PlayerLife : MonoBehaviour
         {
             Die();
         }
+        else if(other.gameObject.CompareTag("Enemy"))
+        {
+            Die();
+        }
     }
 
-    private void Die()
+    public void Die()
     {
         deathSoundEffect.Play();
         rb.bodyType = RigidbodyType2D.Static;

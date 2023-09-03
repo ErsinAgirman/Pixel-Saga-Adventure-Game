@@ -18,7 +18,7 @@ public class ItemCollector : MonoBehaviour
             Destroy(other.gameObject);
             cherries++;
             // Debug.Log("Cherries:" + cherries);
-            cherriesText.text = "Cherries: " + cherries.ToString();
+            cherriesText.text = "Fruits: " + cherries.ToString();
         }    
     }
 }
