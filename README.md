@@ -38,4 +38,6 @@ We could stick to the moving platform, so I created a material called Friction Z
 Button Bugs fixed:
 Mechanical fluidity of the buttons is provided
 
+Day9
+I have finished the game.
 
